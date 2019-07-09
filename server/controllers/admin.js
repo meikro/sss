@@ -227,6 +227,7 @@ module.exports = {
       videoDuration: ctx.request.body.videoDuration,
       videoStyle: ctx.request.body.videoStyle,
       videoTags: ctx.request.body.videoTags,
+      videoTitleCode: ctx.request.body.videoTitleCode,
       videoCover: ctx.request.body.videoCover,
       videoPath: ctx.request.body.videoPath,
       videoDesc: ctx.request.body.videoDesc,

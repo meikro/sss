@@ -15,6 +15,7 @@ let VideoInfo = db.defineModel('VideoInfo', {
   videoCover: db.STRING(200),
   videoStyle: db.STRING(200),
   videoTags: db.STRING(200),
+  videoTitleCode: db.STRING(200),
   videoDesc: db.STRING(200),
   videoPath: db.STRING(200),
   videoStatus: db.STRING(20)

@@ -4494,6 +4494,7 @@ CREATE TABLE `videoinfo` (
   `videoDesc` varchar(200) NOT NULL,
   `videoStyle` varchar(200) NOT NULL,
   `videoTags` varchar(200) NOT NULL,
+  `videoTitleCode` varchar(200) NOT NULL,
   `videoPath` varchar(200) NOT NULL,
   `videoStatus` varchar(20) NOT NULL,
   `id` varchar(50) NOT NULL,

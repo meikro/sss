@@ -6,7 +6,7 @@ function resolve (dir) {
 module.exports = {
   // 选项...
   baseUrl: './',
-  outputDir: 'dist',
+  outputDir: 'server/static',
   assetsDir: 'assets',
   indexPath: 'index.html',
   filenameHashing: true,
