@@ -35,7 +35,7 @@ module.exports = {
                 VideoSetId.add(i)
             }
             for (let videoId of VideoSetId) {
-                let res = await db.sequelize.query(`select VideoInfo.userId,UserInfo.userAvatar,UserInfo.userNickname,VideoInfo.videoId,VideoInfo.videoCover,VideoInfo.videoStyle,VideoInfo.videoTags,VideoInfo。videoTitleCode,VideoInfo.videoDesc,VideoInfo.videoPath from VideoInfo
+                let res = await db.sequelize.query(`select VideoInfo.userId,UserInfo.userAvatar,UserInfo.userNickname,VideoInfo.videoId,VideoInfo.videoCover,VideoInfo.videoStyle,VideoInfo.videoTags,VideoInfo.videoTitleCode,VideoInfo.videoDesc,VideoInfo.videoPath from VideoInfo
         inner join UserInfo
         on VideoInfo.userId = UserInfo.userId
         where VideoInfo.videoId = '${videoId}'
