@@ -10,7 +10,7 @@
   "dependencies": {
     "ali-data-proxy": "^1.1.7",
     "ali-data-proxy-plus": "^1.1.17",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "better-scroll": "^1.13.2",
     "cropperjs": "^1.4.3",
     "http": "0.0.0",
